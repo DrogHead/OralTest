@@ -1,0 +1,22 @@
+table {
+    border-collapse: separate; 
+    border-spacing: 5px;
+}
+
+td {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+td:first-child{
+    background-color: #c0c0c0;
+}
+
+#mat > td{
+    background-color: #c0c0c0;
+}
+
+#mat > #void {
+    background-color: #ffffff;
+}
