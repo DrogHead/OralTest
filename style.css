@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'regularFont';
+    src: url('Signika-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'semiBoldFont';
+    src: url('Signika-SemiBold.ttf');
+}
+
+body {
+    font-family: "regularFont";
+    font-size: 10pt;
+}
+
 table {
     border-collapse: separate; 
     border-spacing: 5px;
@@ -8,6 +23,7 @@ td {
     border-radius: 5px;
     padding: 5px;
     text-align: center;
+    width: fit-content;
 }
 
 td:first-child{
@@ -20,4 +36,8 @@ td:first-child{
 
 #mat > #void {
     background-color: #ffffff;
+}
+
+#date {
+    width: 50px;
 }
