@@ -40,7 +40,7 @@ td:first-child{
     background-color: #ffffff;
 }
 
-td:nth-child(8), td:nth-child(9) {
+td:nth-child(9) {
     min-width: 0;
 }
 
