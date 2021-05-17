@@ -18,6 +18,10 @@ table {
     border-spacing: 5px;
 }
 
+tr {
+    height: max-content;
+}
+
 td {
     background-color: #dcdcdc;
     border-radius: 5px;
@@ -38,6 +42,27 @@ td:first-child{
 
 #mat > #void {
     background-color: #ffffff;
+}
+
+span {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+#Mattia {
+    font-weight: unset;
+    font-size: unset;
+    font-style: italic;
+}
+
+.presenza {
+    display: flex;
+    flex-direction: row;
+}
+
+.presenza > div {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* td:nth-child(9) {
